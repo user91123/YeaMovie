@@ -52,6 +52,7 @@ export interface Movie {
     name: string;
     photo: string;
     profession: string;
+    enProfession?: string;
   }>;
   budget?: {
     value: number;

@@ -69,7 +69,7 @@ export const moviesApi = createApi({
         },
       }),
     }),
-    getMovieById: builder.query<Movie, void>({
+    getMovieById: builder.query<Movie, string>({
       query: (id) => ({
         url: `/${id}`,
       }),

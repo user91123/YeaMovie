@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 export const MoviePage = () => {
   const { id } = useParams<{ id: string }>();
-  const { data, isLoading, error } = useGetMovieByIdQuery(Number(id));
+  const { data, isLoading, error } = useGetMovieByIdQuery(id as string);
 
   if (isLoading) {
     return <div className={styles.loader}>Загрузка...</div>;
