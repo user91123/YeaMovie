@@ -1,0 +1,36 @@
+.movieCard {
+    max-width: 315px;
+    max-height: 380px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.moviePoster {
+    width: 315px;
+    height: 315px;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+
+.movieTitle {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 3px;
+}
+
+.movieInfo {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.movieYear {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.movieRating {
+    font-size: 18px;
+    color: #FFD233;
+}
+

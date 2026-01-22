@@ -1,0 +1,10 @@
+.filterButton:hover {
+    border-color: #888;
+  }
+  
+  .filterButton.active {
+    background: #FF006E;
+    border-color: #FF006E;
+    color: white;
+    font-weight: 600;
+  }

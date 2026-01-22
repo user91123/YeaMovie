@@ -1,0 +1,23 @@
+.popularBtns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 750px;
+    max-height: 50px;
+    margin-left: 30px;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+.button{
+    width: 280px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: #080423;
+    color: aliceblue;
+    font-size: 18px;
+    padding-left: 5px;
+    padding-right: 5px;
+    white-space: nowrap;
+    font-weight: 500;
+}

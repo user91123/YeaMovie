@@ -1,0 +1,60 @@
+.recommendSection {
+    margin: 50px;
+    background: #080423;
+    color: white;
+    border-radius: 25px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 35px;
+  }
+  
+  .content {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    max-width: 1200px;
+    padding: 35px;
+  }
+  
+  .description {
+    flex: 1;
+  }
+  
+  .movieTitle {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+  
+  .movieDescription {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 24px;
+    opacity: 0.9;
+  }
+  
+  .watchButton {
+    padding: 12px 32px;
+    background: #FF006E;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .watchButton:hover {
+    background: #D9005C;
+  }
+  
+  .recommendMovieCard {
+    max-width: 400px;
+    max-height: 600px;
+    flex-shrink: 0;
+  }
+  
